@@ -1,4 +1,9 @@
 {
+	"mod": {
+		"name" : "loot",
+		"display_name" : "Loot",
+		"version" : "1.2.0"
+	},
 	"files": {
 		"index.js": "d4bc468f9afcb63d5318fc3f082068e0cad6b5a0d8845bad3679f0a08095caa7",
 		"Loot.js": "87e4efc0f11beb9dda3c24dfa095a6639c02fa4f582c0f5db66f7d52f619ae9d",
