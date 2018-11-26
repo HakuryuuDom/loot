@@ -1,24 +1,30 @@
 {
 	"mod": {
-		"name" : "loot",
-		"display_name" : "Loot",
-		"version" : "1.2.0"
+		"name": "loot",
+		"display_name": "Loot",
+		"version": "1.2.0"
 	},
 	"files": {
-		"index.js": "d4bc468f9afcb63d5318fc3f082068e0cad6b5a0d8845bad3679f0a08095caa7",
-		"Loot.js": "87e4efc0f11beb9dda3c24dfa095a6639c02fa4f582c0f5db66f7d52f619ae9d",
+		"Droplog.js": "44907bfc20407171edf4315596f996bd52e127faac2440f3bb05e47d72a99af9",
+		"Loot.js": "cfc4efb82a8b97cdcc80e4e00c1cbb5d148bd75e1bf952e693e5650e23ba0f42",
 		"README.md": "48f883ad90146aef308c45be447ea5ae852675a560772a4313568adbcb1918c9",
-    "config.json": { "overwrite" : false, "hash" : "ea14df28f35cdd683f3ef07d4c8a6a4f745100af5ea38f00eaa75719092a2b86" }
+		"config.json": {
+			"overwrite": false,
+			"hash": "ea14df28f35cdd683f3ef07d4c8a6a4f745100af5ea38f00eaa75719092a2b86"
+		},
+		"index.js": "d4bc468f9afcb63d5318fc3f082068e0cad6b5a0d8845bad3679f0a08095caa7",
+		"module.json": "f1694c79ec4797b7e1c8535051d6996ceb0abaa7fe30821c534310a7db6cf95e"
 	},
 	"defs": {
-		"S_LOGIN": 10,
-		"C_PLAYER_LOCATION": 3,
-		"S_SPAWN_DROPITEM": 6,
+		"C_PLAYER_LOCATION": 5,
+		"C_TRY_LOOT_DROPITEM": 4,
+		"S_CREATURE_LIFE": 2,
 		"S_DESPAWN_DROPITEM": 4,
 		"S_LOAD_TOPO": 3,
+		"S_LOGIN": 10,
 		"S_MOUNT_VEHICLE": 2,
-		"S_UNMOUNT_VEHICLE": 2,
-		"S_CREATURE_LIFE": 2,
-		"S_SPAWN_ME": 2
+		"S_SPAWN_DROPITEM": 6,
+		"S_SPAWN_ME": 3,
+		"S_UNMOUNT_VEHICLE": 2
 	}
 }
